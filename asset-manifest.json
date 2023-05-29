@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.469af8d3.css",
+    "main.js": "/portfolio-website/static/js/main.b5a47c71.js",
+    "static/media/benedict.png": "/portfolio-website/static/media/benedict.53061d430e368387ea77.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.469af8d3.css.map": "/portfolio-website/static/css/main.469af8d3.css.map",
+    "main.b5a47c71.js.map": "/portfolio-website/static/js/main.b5a47c71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.469af8d3.css",
+    "static/js/main.b5a47c71.js"
+  ]
+}
