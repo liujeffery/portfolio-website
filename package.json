@@ -6,11 +6,13 @@
   "dependencies": {
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
+    "@mui/base": "^5.0.0-beta.3",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^10.12.16",
     "install": "^0.13.0",
     "npm": "^9.6.6",
     "react": "^18.2.0",
