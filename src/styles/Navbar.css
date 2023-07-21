@@ -1,6 +1,6 @@
 .navbar {
   padding-left: 94.5%;
-  background-color: #21325e;
+  background-color: #d0eff7;
 }
 
 .toggleButton {
@@ -19,6 +19,6 @@
   margin-right: 20px;
   background-color: transparent;
   border: none;
-  color: white;
+  color: black;
   cursor: pointer;
 }
