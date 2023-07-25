@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.168c0c57.css",
-    "main.js": "/portfolio-website/static/js/main.50a65035.js",
+    "main.css": "/portfolio-website/static/css/main.c8dd9462.css",
+    "main.js": "/portfolio-website/static/js/main.edf5313c.js",
     "static/media/benedict.png": "/portfolio-website/static/media/benedict.53061d430e368387ea77.png",
     "index.html": "/portfolio-website/index.html",
-    "main.168c0c57.css.map": "/portfolio-website/static/css/main.168c0c57.css.map",
-    "main.50a65035.js.map": "/portfolio-website/static/js/main.50a65035.js.map"
+    "main.c8dd9462.css.map": "/portfolio-website/static/css/main.c8dd9462.css.map",
+    "main.edf5313c.js.map": "/portfolio-website/static/js/main.edf5313c.js.map"
   },
   "entrypoints": [
-    "static/css/main.168c0c57.css",
-    "static/js/main.50a65035.js"
+    "static/css/main.c8dd9462.css",
+    "static/js/main.edf5313c.js"
   ]
 }
