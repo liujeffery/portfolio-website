@@ -1,18 +1,15 @@
 .home {
-    width: 100%;
     align-items: center;
     font-family: "Roboto", sans-serif;
     color: #3e497a;
   }
   
   .about {
-    width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: #d0eff7;
     color: black;
   }
@@ -26,11 +23,6 @@
   .about .prompt {
     width: 40%;
     font-size: 30px;
-  }
-  .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: white;
   }
   
   .skills {

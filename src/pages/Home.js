@@ -1,15 +1,36 @@
 import React from 'react';
 import "../styles/Home.css";
+import Typewriter from 'typewriter-effect';
+import {Box} from "@mui/material"
+import Jeffery from '../assets/jeffery.png'
 
 function Home() {
+
   return (
     <div className = "home">
       <div className = "about">
+        <Box
+          displayPrint='div'
+          component="img"
+          sx={{
+            height: 250,
+            width: 250,
+          }}
+          alt="Jeffery Liu"
+          src={Jeffery}
+        />
         <h2> 
-          Hi, my name is Jeffery.
+          <Typewriter
+            options={{
+              strings: 'Hi, my name is Jeffery.',
+              autoStart: true,
+              delay: 100
+            }}
+          />
         </h2>
         <div>
-          <p>A software developer with a passion for learning and creating.</p>
+          <p>
+          A software engineering student with a passion for learning and developing.</p>
         </div>
       </div>
       <div className = "skills">

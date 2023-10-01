@@ -3,7 +3,6 @@ import Github from "@mui/icons-material/GitHub";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 import IconButton from "@mui/material/IconButton";
 import {Link} from "react-router-dom";
-import {motion} from "framer-motion";
 import "../styles/Footer.css";
 
 function Footer() {
@@ -14,7 +13,6 @@ function Footer() {
             to="https://github.com/liujeffery"
             target="_blank"
           >
-            <motion.link whileHover={{scale: 1.2}}/>
             <IconButton >
               <Github />
             </IconButton>
