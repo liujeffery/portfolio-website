@@ -1,9 +1,7 @@
 import React from 'react';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from "@mui/icons-material/School";
-import WorkIcon from "@mui/icons-material/Work";
-import Mist from "@mui/icons-material/RocketLaunch";
+import {School, Work, RocketLaunch, LocalPharmacy, MedicalInformation} from "@mui/icons-material";
 
 function Experiences() {
   return (
@@ -13,7 +11,7 @@ function Experiences() {
           className = "vertical-timeline-element--university"
           date = "September 2021 - present"
           iconStyle = {{background: "#3e497a", color: "#fff"}}
-          icon={<SchoolIcon />}
+          icon={<School />}
         >
           <h3 className = "vertical-timeline-element-title">
             McMaster University
@@ -30,7 +28,7 @@ function Experiences() {
           className = "vertical-timeline-element--healthcare-r&a"
           date = "May 2023 - present"
           iconStyle = {{background: "#e9d35b", color: "#fff"}}
-          icon={<WorkIcon />}
+          icon={<MedicalInformation />}
         >
           <h3 className = "vertical-timeline-element-title">
             Healthcare Systems R&A
@@ -63,7 +61,7 @@ function Experiences() {
           className = "vertical-timeline-element--cibc"
           date = "May 2022 - August 2022"
           iconStyle = {{background: "#e9d35b", color: "#fff"}}
-          icon={<WorkIcon />}
+          icon={<Work />}
         >
           <h3 className = "vertical-timeline-element-title">
             CIBC
@@ -95,8 +93,8 @@ function Experiences() {
         <VerticalTimelineElement 
           className = "vertical-timeline-element--mist"
           date = "May 2023 - present"
-          iconStyle = {{background: "#e9d35b", color: "#fff"}}
-          icon={<Mist />}
+          iconStyle = {{background: "#004226", color: "#fff"}}
+          icon={<RocketLaunch />}
         >
           <h3 className = "vertical-timeline-element-title">
             McMaster Interdisciplinary Satellite Team
@@ -106,22 +104,17 @@ function Experiences() {
           </p>
           <ul>
             <li>
-              Collaborate on a team to process data from EEG headsets and identify imagined movement 
-              through various machine learning algorithms
+              Develop and test software as a member of the payload subteam
               <ul>
                 <br/>
                 <li>
-                  Software involved preprocessing, feature extraction and selection, and classification of data
+                  Assisted in development of control centre software to receive, visualize, and send data in real-time
                 </li>
               </ul>
             </li>
             <br/>
             <li>
-              Aid in development of games that would be controlled by identification of corresponding imagined movement
-            </li>
-            <br/>
-            <li>
-              Integrate the signal processing software with games
+              Collaborated with subteams to ensure software met mission requirements and had sufficient documentation
             </li>
           </ul>
         </VerticalTimelineElement>
@@ -129,7 +122,7 @@ function Experiences() {
           className = "vertical-timeline-element--post-office"
           date = "July 2020 - August 2021"
           iconStyle = {{background: "#e9d35b", color: "#fff"}}
-          icon={<WorkIcon />}
+          icon={<LocalPharmacy />}
         >
           <h3 className = "vertical-timeline-element-title">
             Finch Midland Pharmacy
@@ -155,7 +148,7 @@ function Experiences() {
           className = "vertical-timeline-element--high-school"
           date = "September 2017- April 2021"
           iconStyle = {{background: "#3e497a", color: "#fff"}}
-          icon={<SchoolIcon />}
+          icon={<School />}
         >
           <h3 className = "vertical-timeline-element-title">
             Victoria Park CI
