@@ -1,11 +1,14 @@
 .navbar {
-  padding-left: 94.5%;
-  background-color: #d0eff7;
+  position: sticky;
+  top: 0;
+  order: top;
+  background-color: #3e497a;
+  z-index: 1000;
 }
 
 .toggleButton {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   display: flex;
   justify-content: flex-end;
   float: right;
@@ -19,6 +22,6 @@
   margin-right: 20px;
   background-color: transparent;
   border: none;
-  color: black;
+  color: #58E0C8;
   cursor: pointer;
 }

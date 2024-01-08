@@ -1,0 +1,36 @@
+.home {
+    align-items: center;
+    color: #3e497a;
+  }
+
+.about {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #CCD6F6;
+}
+
+.about h2 {
+  font-size: 80px;
+  color: #CCD6F6;
+  height: auto;
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+}

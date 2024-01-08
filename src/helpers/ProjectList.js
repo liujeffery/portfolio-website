@@ -6,7 +6,7 @@ export const ProjectList = [
     {
         name: "Benedict",
         image: benedict,
-        link: "https://github.com/liujeffery/portfolio-website/tree/master",
+        link: "https://github.com/liujeffery/benedict",
         description: "A bot created for Discord that utilizes speech-to-text features for streamlined user-bot interactions."
     },
     {
