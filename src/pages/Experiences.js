@@ -166,6 +166,8 @@ function Experiences() {
           <ul className="skills">
             <li>React</li>
             <li>Javascript</li>
+            <li>CMake</li>
+            <li>C Unit Tests</li>
             <li>Python</li>
             <li>C</li>
           </ul>

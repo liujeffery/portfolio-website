@@ -13,11 +13,10 @@ Link to the website: https://liujeffery.github.io/portfolio-website/
 | ID  | Feature  | Delivered |
 |:-:  |---       | :-:       |
 | F01 | Replacing navbar with Material UI | 04/06/2023 |
-| F02 | Add additional CSS to vertical timeline |  |
+| F02 | Add additional CSS to vertical timeline | 18/02/2024 |
 | F03 | Add additional CSS to navbar |  |
 | F04a | Gain admin access to school projects | |
-| F04b | Add entries to projects and experiences page |  |
-| F05 | Integrate Material UI into projects page |  |
-| F06 | Modify colour scheme of entire website |  |
-| F07 | Add photo and introduction to home page |  |
-| F08 | Add animations using framer-motion |  |
+| F04b | Add entries to projects and experiences page | 18/02/2024 |
+| F05 | Integrate Material UI into projects page | 18/02/2024 |
+| F06 | Modify colour scheme of entire website | 18/02/2024 |
+| F07 | Add photo an introduction to home page |  |
