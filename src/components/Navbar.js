@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import {Link, useLocation} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import {Menu, Home, Work, ChecklistRtl} from "@mui/icons-material";
 import ClickAwayListener from '@mui/base/ClickAwayListener';
 import {Box, Drawer, List, ListItem, ListItemButton, ListItemText, ListItemIcon, Stack, SwipeableDrawer} from "@mui/material";
-import HashLinkObserver from "react-hash-link";
+import { HashLink } from 'react-router-hash-link';
 
 import "../styles/Navbar.css";
 
@@ -13,9 +13,9 @@ function Navbar() {
   const location = useLocation();
 
   const data = [
-    {name: "Home", icon: <Home sx={{color: "#58E0C8"}} />, url: "/portfolio-website#home"},
-    {name: "Experiences", icon: <ChecklistRtl sx={{color: "#58E0C8"}} />, url: "/portfolio-website#experiences"},
-    {name: "Projects", icon: <Work sx={{color: "#58E0C8"}} />, url: "/portfolio-website#projects"}
+    {name: "Home", icon: <Home sx={{color: "#58E0C8"}} />, url: "#home"},
+    {name: "Experiences", icon: <ChecklistRtl sx={{color: "#58E0C8"}} />, url: "#experiences"},
+    {name: "Projects", icon: <Work sx={{color: "#58E0C8"}} />, url: "#projects"}
   ]
 
   useEffect(() => {
@@ -24,7 +24,6 @@ function Navbar() {
 
   return (
     <div className = "navbar">
-    <HashLinkObserver />
       <div className = "toggleButton">
           <button
             onClick={(event) => {
@@ -56,7 +55,7 @@ function Navbar() {
         >
           <List component={Stack} direction="row">
             {data.map((obj) => (
-              <a href={obj.url} style={{textDecoration: "none", color: "#CCD6F6"}}>
+              <HashLink to={obj.url} style={{textDecoration: "none", color: "#CCD6F6"}}>
                 <ListItem>
                   <ListItemButton>
                       <ListItemIcon className="icon">
@@ -65,7 +64,7 @@ function Navbar() {
                       <ListItemText primary={obj.name} />
                   </ListItemButton>
                 </ListItem>
-              </a>
+              </HashLink>
             ))}
           </List>
         </Box>
@@ -97,7 +96,7 @@ function Navbar() {
           >
             <List>
               {data.map((obj) => (
-                <Link to={obj.url} style={{textDecoration: "none", color: "#CCD6F6"}}>
+                <a href={obj.url} style={{textDecoration: "none", color: "#CCD6F6"}}>
                   <ListItem>
                     <ListItemButton>
                         <ListItemIcon className="icon">
@@ -106,7 +105,7 @@ function Navbar() {
                         <ListItemText primary={obj.name} />
                     </ListItemButton>
                   </ListItem>
-                </Link>
+                </a>
               ))}
             </List>
           </Box>

@@ -125,7 +125,8 @@ function Projects() {
   const opacity = active && above900 ? 0.5 : 1;
 
   return (
-    <Box sx={{ margin: "auto", width: { xs: "95%", md: "850px" } }} id="projects">
+    <Box sx={{ margin: "auto", width: { xs: "95%", md: "850px" } }}>
+      <a className="anchor" id="projects"></a>
       <h1 className="title">Projects</h1>
       <div className="projectList">
         {ProjectList.map((project, idx) => {

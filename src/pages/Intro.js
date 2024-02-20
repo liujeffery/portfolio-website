@@ -1,7 +1,6 @@
 import {React, useState, useEffect} from 'react';
 import Typewriter from 'typewriter-effect';
 import {Box, Fade} from "@mui/material"
-import HashLinkObserver from "react-hash-link";
 
 import Jeffery from '../assets/jeffery.png'
 import "../styles/Intro.css";
@@ -34,8 +33,8 @@ function Intro() {
   })
 
   return (
-    <div className="home" id="home">
-      <HashLinkObserver />
+    <div className="home">
+      <a className="anchor" id="home"></a>
       <div className = "about">
         <Fade in={load}>
           <Box
