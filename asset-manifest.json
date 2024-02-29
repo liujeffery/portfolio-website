@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.5d9f5076.css",
-    "main.js": "/portfolio-website/static/js/main.ed1d24d2.js",
+    "main.css": "/portfolio-website/static/css/main.cda57859.css",
+    "main.js": "/portfolio-website/static/js/main.ad7e9cbf.js",
     "static/media/benedict.png": "/portfolio-website/static/media/benedict.53061d430e368387ea77.png",
+    "static/media/mcmaster.png": "/portfolio-website/static/media/mcmaster.bd407a02db0e7bbd8bd2.png",
     "static/media/jeffery.png": "/portfolio-website/static/media/jeffery.cda525ecc06ddb416879.png",
     "static/media/portfolio_website.png": "/portfolio-website/static/media/portfolio_website.1f4f6c814689a5709a99.png",
+    "static/media/healthcare_systems_r_a_logo.png": "/portfolio-website/static/media/healthcare_systems_r_a_logo.36d3e72481fb0fabcba7.png",
+    "static/media/mist.png": "/portfolio-website/static/media/mist.1384dcb9e4aeb6f4d091.png",
+    "static/media/side_projects.png": "/portfolio-website/static/media/side_projects.eeb3f8228bb58381b12c.png",
     "static/media/money_manager.png": "/portfolio-website/static/media/money_manager.7128b64778d8f5549dcd.png",
     "index.html": "/portfolio-website/index.html",
-    "main.5d9f5076.css.map": "/portfolio-website/static/css/main.5d9f5076.css.map",
-    "main.ed1d24d2.js.map": "/portfolio-website/static/js/main.ed1d24d2.js.map"
+    "main.cda57859.css.map": "/portfolio-website/static/css/main.cda57859.css.map",
+    "main.ad7e9cbf.js.map": "/portfolio-website/static/js/main.ad7e9cbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d9f5076.css",
-    "static/js/main.ed1d24d2.js"
+    "static/css/main.cda57859.css",
+    "static/js/main.ad7e9cbf.js"
   ]
 }
