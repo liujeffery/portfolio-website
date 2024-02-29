@@ -1,4 +1,4 @@
-import {React, useState} from 'react';
+import {React, useState, useEffect} from 'react';
 import {Box} from "@mui/material";
 import Carousel from 'react-material-ui-carousel'
 
@@ -22,11 +22,11 @@ function AboutImage({img}) {
       displayPrint='div'
       component="img"
       sx={{
-        height: {xs: "78%", md: "236px"},
-        width: {xs: "78%", md: "236px"},
+        height: {xs: "60%", md: "230px"},
+        width: {xs: "60%", md: "230px"},
         borderRadius: "20px",
         border: "7px solid #0A192F",
-        marginLeft: {xs: "7.5%", md: "50px"}
+        marginLeft: {xs: "17.5%", md: "53px"}
       }}
       alt="Jeffery Liu"
       src={img}
@@ -36,9 +36,23 @@ function AboutImage({img}) {
 
 function About() {
   const [activeImg, setActiveImg] = useState(0);
+  const [startImg, setStartImg] = useState(1)
+
+  useEffect(() => {
+    let ignore = false;
+    if (!ignore) {
+      setTimeout(() => {
+        setStartImg(0);
+      }, 1);
+    }
+    return (() => {
+      ignore = true;
+    })
+  })
 
   function Highlight({text, id}){
     const isImg = activeImg === id;
+
     return (
       <a
         // eslint-disable-next-line
@@ -71,10 +85,11 @@ function About() {
       >
         <Box 
           sx={{
-            width: {xs: "96%", lg: "420px"},
+            width: {xs: "94%", lg: "420px"},
             float: "right",
             color: "#CCD6F6",
-            marginLeft: {xs: "4%", lg: "0px"}
+            marginLeft: {xs: "4%", lg: "0px"},
+            marginRight: {xs: "2%", lg: "0px"}
           }}
         >
           <p className="about-text">
@@ -93,9 +108,9 @@ function About() {
       </Box>
       <Box
         sx={{
-          height: {xs: "100px", md: "250px"},
+          height: {xs: "auto", md: "250px"},
           width: {xs: "35%", md: "350px"},
-          margin: {xs: "0% 37.5% 0% 37.5%", md: "0px"},
+          margin: {xs: "0% 32.5% 0% 32.5%", md: "0px"},
           display: "inline-block",
         }}
       >
@@ -106,9 +121,7 @@ function About() {
           next={(active) => setActiveImg(active)}
           prev={(active) => setActiveImg(active)}
           navButtonsAlwaysVisible={true}
-          sx={{
-            minHeight: "none"
-          }}
+          index={startImg}
         >
           {imgs.map((img) => {
               return <AboutImage img={img}/>
