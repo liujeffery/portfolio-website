@@ -16,7 +16,6 @@ function Intro() {
     cursor: "|"
     }}
   />)
-
   useEffect(() => {
     let ignore = false;
     if (!ignore) {
@@ -25,7 +24,7 @@ function Intro() {
       }, 1);
       setTimeout(() => {
         setIntro("Hi, my name is Jeffery.")
-      }, 4000);
+      }, 3330);
     }
     return (() => {
       ignore = true;
@@ -34,7 +33,7 @@ function Intro() {
 
   return (
     <div className="home">
-      <a className="anchor" id="home"></a>
+      <div className="anchor" id="home"></div>
       <div className = "about">
         <Fade in={load}>
           <Box
@@ -49,7 +48,7 @@ function Intro() {
           />
         </Fade>
         <h2>{intro}</h2>
-        <div>
+        <div className="prompt">
           <p>A software engineering student with a passion for learning and developing.</p>
         </div>
       </div>

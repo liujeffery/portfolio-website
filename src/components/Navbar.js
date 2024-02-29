@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation} from "react-router-dom";
-import {Menu, Home, Work, ChecklistRtl} from "@mui/icons-material";
+import {Menu, Home, Work, ChecklistRtl, ContactPage} from "@mui/icons-material";
 import ClickAwayListener from '@mui/base/ClickAwayListener';
 import {Box, Drawer, List, ListItem, ListItemButton, ListItemText, ListItemIcon, Stack, SwipeableDrawer} from "@mui/material";
 import { HashLink } from 'react-router-hash-link';
@@ -14,6 +14,7 @@ function Navbar() {
 
   const data = [
     {name: "Home", icon: <Home sx={{color: "#58E0C8"}} />, url: "#home"},
+    {name: "About Me", icon: <ContactPage sx={{color: "#58E0C8"}}/>, url: "#about-me"},
     {name: "Experiences", icon: <ChecklistRtl sx={{color: "#58E0C8"}} />, url: "#experiences"},
     {name: "Projects", icon: <Work sx={{color: "#58E0C8"}} />, url: "#projects"}
   ]
@@ -25,13 +26,13 @@ function Navbar() {
   return (
     <div className = "navbar">
       <div className = "toggleButton">
-          <button
-            onClick={(event) => {
-              setExpandNavbar(true)
-              event.stopPropagation()
-            }}>
-            <Menu />
-          </button>
+        <button
+          onClick={(event) => {
+            setExpandNavbar(true)
+            event.stopPropagation()
+          }}>
+          <Menu />
+        </button>
       </div>
       <Drawer
         anchor="top"
@@ -40,7 +41,7 @@ function Navbar() {
         sx={{
           display:{
             xs: "none", 
-            sm: "block"
+            md: "block"
           },
         }}
         PaperProps={{
@@ -61,7 +62,7 @@ function Navbar() {
                       <ListItemIcon className="icon">
                         {obj.icon}
                       </ListItemIcon>
-                      <ListItemText primary={obj.name} />
+                      <ListItemText primary={obj.name} sx={{ whiteSpace: 'nowrap' }}/>
                   </ListItemButton>
                 </ListItem>
               </HashLink>
@@ -79,7 +80,7 @@ function Navbar() {
         sx={{
           display:{
             xs: "block", 
-            sm: "none"
+            md: "none"
           },
         }}
         PaperProps={{
@@ -102,7 +103,7 @@ function Navbar() {
                         <ListItemIcon className="icon">
                           {obj.icon}
                         </ListItemIcon>
-                        <ListItemText primary={obj.name} />
+                        <ListItemText primary={obj.name} sx={{ whiteSpace: 'nowrap' }}/>
                     </ListItemButton>
                   </ListItem>
                 </a>

@@ -126,7 +126,7 @@ function Projects() {
 
   return (
     <Box sx={{ margin: "auto", width: { xs: "95%", md: "850px" } }}>
-      <a className="anchor" id="projects"></a>
+      <div className="anchor" id="projects"></div>
       <h1 className="title">Projects</h1>
       <div className="projectList">
         {ProjectList.map((project, idx) => {
