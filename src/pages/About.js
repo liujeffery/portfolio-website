@@ -80,7 +80,7 @@ function About() {
         sx={{
           display: "inline-block",
           width: {xs: "100%", md: "50%"},
-          marginRight: "5%",
+          marginRight: {xs: "0%", md: "5%"},
         }}
       >
         <Box 
