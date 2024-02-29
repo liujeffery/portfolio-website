@@ -24,7 +24,7 @@ function Intro() {
       }, 1);
       setTimeout(() => {
         setIntro("Hi, my name is Jeffery.")
-      }, 3300);
+      }, 3270);
     }
     return (() => {
       ignore = true;
