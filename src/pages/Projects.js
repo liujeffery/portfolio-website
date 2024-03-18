@@ -51,6 +51,7 @@ function ProjectItem({ project, handleMouseEnter, handleMouseLeave, opacity, abo
             height: "20%",
             width: "20%",
             borderRadius: 2,
+            border: "1px solid white",
             display: "inline-block",
           }}
         />
