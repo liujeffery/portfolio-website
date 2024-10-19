@@ -37,7 +37,7 @@ function AboutImage({img}) {
 function About() {
   const [activeImg, setActiveImg] = useState(0);
   const [startImg, setStartImg] = useState(1)
-
+  
   useEffect(() => {
     let ignore = false;
     if (!ignore) {
@@ -109,9 +109,9 @@ function About() {
       <Box
         sx={{
           height: {xs: "auto", md: "250px"},
-          width: {xs: "35%", md: "350px"},
-          margin: {xs: "0% 32.5% 0% 32.5%", md: "0px"},
-          display: "inline-block",
+          width: {xs: "280px", md: "350px"},
+          margin: {xs: "0 auto", md: "0px"},
+          display: {xs: "block", md: "inline-block"},
         }}
       >
         <Carousel
