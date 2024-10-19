@@ -20,27 +20,76 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             McMaster University
           </h3>
-          <br/>
+          <h4 className="vertical-time-element-subtitle">
+            Hamilton, Ontario
+          </h4>
           <p>
             <i>Candidate for B.E in Software Engineering</i> <br /><br/>
-            Cumulative GPA: 3.87 <br /><br/>
+            Cumulative GPA: 3.87 <br/>
             Relevant courses:
           </p>
           <ul>
             <li>
-              Data Structures & Algorithms <b>(A+)</b>
+              Data Structures & Algorithms
             </li>
             <br/>
             <li>
-              Software Engineering Practice & Experience <b>(A+)</b>
+              Software Engineering Practice & Experience
             </li>
             <br/>
             <li>
-              Digital Systems & Interfacing <b>(A)</b>
+              Concurrent Systems
             </li>
             <br/>
             <li>
-              Object Oriented Programming <b>(A)</b>
+              Databases
+            </li>
+            <br/>
+            <li>
+              Digital Systems & Interfacing
+            </li>
+            <br/>
+            <li>
+              Object Oriented Programming
+            </li>
+          </ul>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement 
+          className = "vertical-timeline-element--university"
+          date = "April 2024 - July 2024"
+          dateClassName="date"
+          iconStyle = {{background: "#3e497a", color: "#fff"}}
+          icon={<School />}
+        >
+          <h3 className = "vertical-timeline-element-title">
+            Waseda University
+          </h3>
+          <h4 className="vertical-time-element-subtitle">
+            Tokyo, Japan
+          </h4>
+          <p>
+            <i>Exchange Semester in School of Fundamental Science and Engineering</i> <br /><br/>
+            Relevant courses:
+          </p>
+          <ul>
+            <li>
+              Operating Systems
+            </li>
+            <br/>
+            <li>
+              Reliable Software
+            </li>
+            <br/>
+            <li>
+              Data Mining
+            </li>
+            <br/>
+            <li>
+              Computer Language Processers
+            </li>
+            <br/>
+            <li>
+              Digital System Processing
             </li>
           </ul>
           </VerticalTimelineElement>
@@ -54,32 +103,34 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             Healthcare Systems R&A
           </h3>
+          <h4 className="vertical-time-element-subtitle">
+            Waterloo, Ontario
+          </h4>
           <p>
             <i>Software Engineering Research Assistant</i>
           </p>
           <ul>
             <li>
-              Applied <b>machine learning</b> methodologies to complete critical company projects across two teams
+              Created various <b>convolution</b>, <b>recurrent</b>, and <b>LSTM machine learning models</b> to complete critical company
+              projects across three teams in fast paced environment, using Tensorflow, Keras, and PyTorch
             </li>
             <br/>
             <li>
-              Designed, developed, and tested end-to-end pipelines for <b>neural networks</b>, simplifying workflow and increasing productivity for team members
+              Designed, organized, developed, and tested <b>end-to-end pipelines</b> for <b>core landmark detection models</b>,
+              reducing development time for team members by <b>40%</b>, using Python
             </li>
             <br/>
             <li>
-              Implemented algorithms for <b>data imputation</b>, <b>preprocessing</b>, and <b>feature extraction</b>
+              <b>In three weeks</b>, created a <b>graph neural network</b> for feature extraction in central pipeline, using DGL
             </li>
             <br/>
             <li>
-              Wrote and maintained documentation for software processes as part of a term report for stakeholders
+              Implemented algorithms for <b>data imputation</b>, <b>preprocessing</b>, and <b>feature extraction</b> for all models, using Numpy
             </li>
             <br/>
             <li>
-              Aid in development of games that would be controlled by identification of corresponding imagined movement
-            </li>
-            <br/>
-            <li>
-              Integrate the signal processing software with games
+              Wrote and maintained over <b>60 pages of technical documentation</b> for maintenance and usage of software
+              processes, to be read by over <b>45 stakeholders and team members</b>
             </li>
           </ul>
           <ul className="skills">
@@ -90,6 +141,8 @@ function Experiences() {
             <li>Numpy</li>
             <li>Python</li>
             <li>MATLAB</li>
+            <li>Git</li>
+            <li>Deep Graph Learning (DGL)</li>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -102,27 +155,24 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             CIBC
           </h3>
+          <h4 className="vertical-time-element-subtitle">
+            Toronto, Ontario
+          </h4>
           <p>
             <i>Technical Analyst</i>
           </p>
           <ul>
             <li>
-              Collaborated on a team to monitor critical infrastructure operations and resolve or escalate issues
+              Resolved and escalated over <b>900 service tickets a month</b> to monitor <b>critical infrastructure operations</b>
             </li>
             <br/>
             <li>
-              As a sector-wide initiative for innovation, implemented features and additional functionality for internal
-              use, including creating and modifying tools for management using Java
+              Built <b>internal management tools</b> in <b>Agile workflow</b> to reduce search times by <b>75%</b>, using Java and Powershell
             </li>
             <br/>
             <li>
               Aided in creation and planning of automation project that would reduce manual work by <b>45 hours a
               month</b>, using Python
-            </li>
-            <br/>
-            <li>
-              Independently designed, scheduled, and delegated tasks using <b>Agile methodology</b>, working closely
-              with project managers and other team members in development
             </li>
           </ul>
           <ul className="skills">
@@ -131,6 +181,7 @@ function Experiences() {
             <li>Jira</li>
             <li>Bash</li>
             <li>Java</li>
+            <li>Agile</li>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -143,6 +194,9 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             McMaster Interdisciplinary Satellite Team
           </h3>
+          <h4 className="vertical-time-element-subtitle">
+            Hamilton, Ontario
+          </h4>
           <p>
             <i>Software Specialist</i>
           </p>
@@ -170,7 +224,7 @@ function Experiences() {
             <li>Bash</li>
             <li>Javascript</li>
             <li>Python</li>
-            <li>C</li>
+            <li>C/C++</li>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
@@ -183,6 +237,9 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             Finch Midland Pharmacy
           </h3>
+          <h4 className="vertical-time-element-subtitle">
+            Toronto, Ontario
+          </h4>
           <p>
             <i>Canada Post Clerk</i>
           </p>
