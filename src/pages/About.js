@@ -98,7 +98,7 @@ function About() {
             continuous learning and improvement, I'm focused on expanding my skillset and adapting to industry needs.
             <br/>
             <br/>
-            My most recent work experience was for <Highlight text="Healthcare Systems R&A" id={1}/>.
+            My most recent work experience was <Highlight text="Healthcare Systems R&A" id={1}/>.
             Outside of work, I'm a software specialist on the payload subteam for <Highlight text="McMaster's Interdisciplinary Satellite Team" id={2}/>.
             <br/>
             <br/>
