@@ -95,7 +95,7 @@ function Experiences() {
           </VerticalTimelineElement>
         <VerticalTimelineElement 
           className = "vertical-timeline-element--healthcare-r&a"
-          date = "May 2023 - present"
+          date = "May 2023 - April 2024"
           dateClassName="date"
           iconStyle = {{background: "#e9d35b", color: "#fff"}}
           icon={<MedicalInformation />}
