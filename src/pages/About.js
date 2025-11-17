@@ -2,7 +2,7 @@ import {React, useState, useEffect} from 'react';
 import {Box} from "@mui/material";
 import Carousel from 'react-material-ui-carousel'
 
-import Work from "../assets/healthcare_systems_r_a_logo.png";
+import Work from "../assets/hydro_one.png";
 import Mist from "../assets/mist.png";
 import McMaster from "../assets/mcmaster.png"
 import sideProjects from "../assets/side_projects.png"
@@ -12,7 +12,7 @@ const imgs = [McMaster, Work, Mist, sideProjects]
 const links = 
 [
   "https://www.mcmaster.ca/",
-  "http://www.healthcare-systems.ca/",
+  "https://www.hydroone.com/",
   "https://mcmasterneudose.ca/",
   "https://github.com/liujeffery",
 ]
@@ -60,7 +60,7 @@ function About() {
         target={isImg ? "_blank": ""}
         rel={isImg? "noreferrer" : ""}
         style={{
-          textDecoration: "none",
+          textDecoration: isImg ? "underline" : "none",
           fontWeight: isImg ? 500 : 400, 
           color: isImg ? "#58E0C8" : "#CCD6F6",
           transition: "color 2s",
@@ -98,7 +98,7 @@ function About() {
             continuous learning and improvement, I'm focused on expanding my skillset and adapting to industry needs.
             <br/>
             <br/>
-            My most recent work experience was <Highlight text="Healthcare Systems R&A" id={1}/>.
+            I'm currently an intern at <Highlight text="Hydro One" id={1}/>.
             Outside of work, I'm a software specialist on the payload subteam for <Highlight text="McMaster's Interdisciplinary Satellite Team" id={2}/>.
             <br/>
             <br/>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
-import {School, Work, RocketLaunch, LocalPharmacy, MedicalInformation} from "@mui/icons-material";
+import {School, Work, RocketLaunch, LocalPharmacy, MedicalInformation, Bolt} from "@mui/icons-material";
 
 import "react-vertical-timeline-component/style.min.css";
 import "../styles/Experiences.css"
@@ -20,15 +20,14 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             McMaster University
           </h3>
-          <h4 className="vertical-time-element-subtitle">
+          <h4 className="vertical-timeline-element-subtitle">
             Hamilton, Ontario
           </h4>
           <p>
-            <i>Candidate for B.E in Software Engineering</i> <br /><br/>
-            Cumulative GPA: 3.87 <br/>
+            <i>Candidate for B.E in Software Engineering, 3.87 GPA</i> <br/>
             Relevant courses:
           </p>
-          <ul>
+          <ul className="courses">
             <li>
               Data Structures & Algorithms
             </li>
@@ -53,8 +52,8 @@ function Experiences() {
               Object Oriented Programming
             </li>
           </ul>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement 
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
           className = "vertical-timeline-element--university"
           date = "April 2024 - July 2024"
           dateClassName="date"
@@ -64,14 +63,14 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             Waseda University
           </h3>
-          <h4 className="vertical-time-element-subtitle">
+          <h4 className="vertical-timeline-element-subtitle">
             Tokyo, Japan
           </h4>
           <p>
-            <i>Exchange Semester in School of Fundamental Science and Engineering</i> <br /><br/>
+            <i>Exchange, School of Fundamental Science and Engineering</i> <br/>
             Relevant courses:
           </p>
-          <ul>
+          <ul className="courses">
             <li>
               Operating Systems
             </li>
@@ -92,7 +91,54 @@ function Experiences() {
               Digital System Processing
             </li>
           </ul>
-          </VerticalTimelineElement>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
+          className = "vertical-timeline-element--hydro-one"
+          date = "May 2025 - present"
+          dateClassName="date"
+          iconStyle = {{background: "#e9d35b", color: "#fff"}}
+          icon={<Bolt />}
+        >
+          <h3 className = "vertical-timeline-element-title">
+            Hydro One
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Toronto, Ontario
+          </h4>
+          <p>
+            <i>Software Intern</i>
+          </p>
+          <ul>
+            <li>
+              Administrate software to manage over <b>52000</b> critical control, protection, 
+              and monitoring devices across Ontario
+            </li>
+            <br/>
+            <li>
+              Used SQL and Python to compile <b>15+ monthly reports</b> and eliminate a manual 
+              ticketing system, reducing work by <b>30 hours a month</b>
+            </li>
+            <br/>
+            <li>
+              Created a <b>web-based script</b> using <b>Selenium</b> to automate bulk changes to
+              <b> 1000+ devices</b>, reducing manual work by <b>40 hours a month</b> and eliminating
+              <b> $1000 a month</b> in third-party fees
+            </li>
+            <br/>
+            <li>
+              Consolidated over <b>100 pages</b> of scattered documentation into a single, hyperlinked knowledge hub, 
+              slashing file volume by <b>60%</b> and reducing information retrieval time by <b>50%</b>
+            </li>
+          </ul>
+          <ul className="skills">
+            <li>Selenium</li>
+            <li>Power BI</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>SAP</li>
+            <li>Visual Basic</li>
+          </ul>
+        </VerticalTimelineElement>
         <VerticalTimelineElement 
           className = "vertical-timeline-element--healthcare-r&a"
           date = "May 2023 - April 2024"
@@ -103,7 +149,7 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             Healthcare Systems R&A
           </h3>
-          <h4 className="vertical-time-element-subtitle">
+          <h4 className="vertical-timeline-element-subtitle">
             Waterloo, Ontario
           </h4>
           <p>
@@ -155,7 +201,7 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             CIBC
           </h3>
-          <h4 className="vertical-time-element-subtitle">
+          <h4 className="vertical-timeline-element-subtitle">
             Toronto, Ontario
           </h4>
           <p>
@@ -194,7 +240,7 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             McMaster Interdisciplinary Satellite Team
           </h3>
-          <h4 className="vertical-time-element-subtitle">
+          <h4 className="vertical-timeline-element-subtitle">
             Hamilton, Ontario
           </h4>
           <p>
@@ -202,15 +248,15 @@ function Experiences() {
           </p>
           <ul>
             <li>
-              Develop and test integral software and firmware as a member of the payload subteam
+              Develop and test <b>integral software and firmware</b> in C/C++ and Javascript as a member of the payload subteam
             </li>
             <br/>
             <li>
-              Assist in development of <b>control centre software</b> to <b>receive, visualize, and send</b> data in real-time
+              Developed <b>control centre software</b> in Javascript and Typescript to <b>receive, visualize, and send</b> data in real-time
             </li>
             <br/>
             <li>
-              Collaborate with subteams to ensure software meets mission requirements
+              Created a <b>CI/CD pipeline</b> with Github Actions and CMake to automate unit testing, reducing <b>30 hours of work monthly</b>
             </li>
             <br/>
             <li>
@@ -237,7 +283,7 @@ function Experiences() {
           <h3 className = "vertical-timeline-element-title">
             Finch Midland Pharmacy
           </h3>
-          <h4 className="vertical-time-element-subtitle">
+          <h4 className="vertical-timeline-element-subtitle">
             Toronto, Ontario
           </h4>
           <p>

@@ -37,3 +37,12 @@
     display: inline-block;
     font-weight: 500;
 }
+
+.courses li {
+    line-height: 0.3;
+    margin-top: 5px;
+}
+
+p {
+    margin-bottom: 5px;
+}
