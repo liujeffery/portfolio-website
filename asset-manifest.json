@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.744cc21a.css",
-    "main.js": "/portfolio-website/static/js/main.d5537582.js",
+    "main.css": "/portfolio-website/static/css/main.3f3708a6.css",
+    "main.js": "/portfolio-website/static/js/main.e6a77e25.js",
     "static/media/mcmaster.png": "/portfolio-website/static/media/mcmaster.bd407a02db0e7bbd8bd2.png",
     "static/media/jeffery.png": "/portfolio-website/static/media/jeffery.cda525ecc06ddb416879.png",
     "static/media/a1_piraten.png": "/portfolio-website/static/media/a1_piraten.f173ee4ed4af9d3d4505.png",
     "static/media/portfolio_website.png": "/portfolio-website/static/media/portfolio_website.c6f03bc12357826de342.png",
     "static/media/benedict.png": "/portfolio-website/static/media/benedict.83d745ecefa2cb10d32e.png",
-    "static/media/healthcare_systems_r_a_logo.png": "/portfolio-website/static/media/healthcare_systems_r_a_logo.36d3e72481fb0fabcba7.png",
     "static/media/a4_urbanism.png": "/portfolio-website/static/media/a4_urbanism.99f9e0b6131c9ee6771f.png",
     "static/media/mist.png": "/portfolio-website/static/media/mist.1384dcb9e4aeb6f4d091.png",
     "static/media/money_manager.png": "/portfolio-website/static/media/money_manager.078a95aa6b94e1a09deb.png",
     "static/media/side_projects.png": "/portfolio-website/static/media/side_projects.eeb3f8228bb58381b12c.png",
+    "static/media/hydro_one.png": "/portfolio-website/static/media/hydro_one.db848d3c54b079e8fa0e.png",
     "index.html": "/portfolio-website/index.html",
-    "main.744cc21a.css.map": "/portfolio-website/static/css/main.744cc21a.css.map",
-    "main.d5537582.js.map": "/portfolio-website/static/js/main.d5537582.js.map"
+    "main.3f3708a6.css.map": "/portfolio-website/static/css/main.3f3708a6.css.map",
+    "main.e6a77e25.js.map": "/portfolio-website/static/js/main.e6a77e25.js.map"
   },
   "entrypoints": [
-    "static/css/main.744cc21a.css",
-    "static/js/main.d5537582.js"
+    "static/css/main.3f3708a6.css",
+    "static/js/main.e6a77e25.js"
   ]
 }
