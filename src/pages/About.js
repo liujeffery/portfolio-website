@@ -94,11 +94,11 @@ function About() {
         >
           <p className="about-text">
             <b>Hello!</b> My name is <b>Jeffery Liu</b>, 
-            and I'm in my third year of Software Engineering at <Highlight text="McMaster University" id={0}/>. In a discipline that emphasizes 
+            and I'm in my fourth year of Software Engineering at <Highlight text="McMaster University" id={0}/>. In a discipline that emphasizes 
             continuous learning and improvement, I'm focused on expanding my skillset and adapting to industry needs.
             <br/>
             <br/>
-            I'm currently an intern at <Highlight text="Hydro One" id={1}/>.
+            I was most recently an intern at <Highlight text="Hydro One" id={1}/>.
             Outside of work, I'm a software specialist on the payload subteam for <Highlight text="McMaster's Interdisciplinary Satellite Team" id={2}/>.
             <br/>
             <br/>

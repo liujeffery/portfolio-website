@@ -12,7 +12,7 @@ function Experiences() {
       <VerticalTimeline lineColor="white">
         <VerticalTimelineElement 
           className = "vertical-timeline-element--university"
-          date = "September 2021 - present"
+          date = "September 2021 - April 2027"
           dateClassName="date"
           iconStyle = {{background: "#3e497a", color: "#fff"}}
           icon={<School />}
@@ -24,7 +24,7 @@ function Experiences() {
             Hamilton, Ontario
           </h4>
           <p>
-            <i>Candidate for B.E in Software Engineering, 3.87 GPA</i> <br/>
+            <i>Candidate for B.E in Software Engineering, 3.85 GPA</i> <br/>
             Relevant courses:
           </p>
           <ul className="courses">
@@ -110,8 +110,8 @@ function Experiences() {
           </p>
           <ul>
             <li>
-              Administrate software to manage over <b>52000</b> critical control, protection, 
-              and monitoring devices across Ontario
+              Built a tool using <b>Python</b> and <b>quantized LLMs</b> to preprocess, batch, and generate summaries from shift logs, reducing
+              manual work by <b>90 hours a month</b> and token-related costs by <b>60%</b>
             </li>
             <br/>
             <li>
@@ -126,17 +126,25 @@ function Experiences() {
             </li>
             <br/>
             <li>
+              Administrate software to manage over <b>52000</b> critical control, protection, 
+              and monitoring devices across Ontario
+            </li>
+            <br/>
+            <li>
               Consolidated over <b>100 pages</b> of scattered documentation into a single, hyperlinked knowledge hub, 
               slashing file volume by <b>60%</b> and reducing information retrieval time by <b>50%</b>
             </li>
           </ul>
           <ul className="skills">
-            <li>Selenium</li>
-            <li>Power BI</li>
             <li>Python</li>
             <li>SQL</li>
+            <li>HuggingFace</li>
+            <li>Large Lanuguage Models (LLMs)</li>
+            <li>NLP</li>
+            <li>Selenium</li>
             <li>SAP</li>
             <li>Visual Basic</li>
+            <li>Git</li>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
