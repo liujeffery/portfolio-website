@@ -26,7 +26,7 @@ function Footer() {
             </IconButton> 
           </Link>
         </div>
-        <p>@2023 Jeffery Liu</p>
+        <p>@2026 Jeffery Liu</p>
     </div>
   )
 }
