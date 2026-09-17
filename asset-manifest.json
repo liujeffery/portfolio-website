@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.3f3708a6.css",
-    "main.js": "/portfolio-website/static/js/main.e93328de.js",
+    "main.js": "/portfolio-website/static/js/main.f82138fa.js",
     "static/media/mcmaster.png": "/portfolio-website/static/media/mcmaster.bd407a02db0e7bbd8bd2.png",
     "static/media/jeffery.png": "/portfolio-website/static/media/jeffery.cda525ecc06ddb416879.png",
     "static/media/a1_piraten.png": "/portfolio-website/static/media/a1_piraten.f173ee4ed4af9d3d4505.png",
@@ -9,15 +9,16 @@
     "static/media/benedict.png": "/portfolio-website/static/media/benedict.83d745ecefa2cb10d32e.png",
     "static/media/a4_urbanism.png": "/portfolio-website/static/media/a4_urbanism.99f9e0b6131c9ee6771f.png",
     "static/media/mist.png": "/portfolio-website/static/media/mist.1384dcb9e4aeb6f4d091.png",
+    "static/media/Jeffery_Liu_Resume.pdf": "/portfolio-website/static/media/Jeffery_Liu_Resume.2b9dfc5f3997d125496c.pdf",
     "static/media/money_manager.png": "/portfolio-website/static/media/money_manager.078a95aa6b94e1a09deb.png",
     "static/media/side_projects.png": "/portfolio-website/static/media/side_projects.eeb3f8228bb58381b12c.png",
     "static/media/hydro_one.png": "/portfolio-website/static/media/hydro_one.db848d3c54b079e8fa0e.png",
     "index.html": "/portfolio-website/index.html",
     "main.3f3708a6.css.map": "/portfolio-website/static/css/main.3f3708a6.css.map",
-    "main.e93328de.js.map": "/portfolio-website/static/js/main.e93328de.js.map"
+    "main.f82138fa.js.map": "/portfolio-website/static/js/main.f82138fa.js.map"
   },
   "entrypoints": [
     "static/css/main.3f3708a6.css",
-    "static/js/main.e93328de.js"
+    "static/js/main.f82138fa.js"
   ]
 }
