@@ -1,11 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import {useLocation} from "react-router-dom";
-import {Menu, Home, Work, ChecklistRtl, ContactPage} from "@mui/icons-material";
+import {Menu, Home, Work, ChecklistRtl, ContactPage, Description} from "@mui/icons-material";
 import ClickAwayListener from '@mui/base/ClickAwayListener';
 import {Box, Drawer, List, ListItem, ListItemButton, ListItemText, ListItemIcon, Stack, SwipeableDrawer} from "@mui/material";
 import { HashLink } from 'react-router-hash-link';
 
 import "../styles/Navbar.css";
+import resume from "../assets/Jeffery_Liu_Resume.pdf";
 
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
@@ -16,7 +17,8 @@ function Navbar() {
     {name: "Home", icon: <Home sx={{color: "#58E0C8"}} />, url: "#home"},
     {name: "About Me", icon: <ContactPage sx={{color: "#58E0C8"}}/>, url: "#about-me"},
     {name: "Experiences", icon: <ChecklistRtl sx={{color: "#58E0C8"}} />, url: "#experiences"},
-    {name: "Projects", icon: <Work sx={{color: "#58E0C8"}} />, url: "#projects"}
+    {name: "Projects", icon: <Work sx={{color: "#58E0C8"}} />, url: "#projects"},
+    {name: "Resume", icon: <Description sx={{color: "#58E0C8"}} />, url: resume, newTab: true},
   ]
 
   useEffect(() => {
@@ -56,7 +58,12 @@ function Navbar() {
         >
           <List component={Stack} direction="row">
             {data.map((obj) => (
-              <HashLink to={obj.url} style={{textDecoration: "none", color: "#CCD6F6"}}>
+              <HashLink
+                to={obj.url}
+                target={obj.newTab ? "_blank" : undefined}
+                rel={obj.newTab ? "noreferrer" : undefined}
+                style={{textDecoration: "none", color: "#CCD6F6"}}
+              >
                 <ListItem>
                   <ListItemButton>
                       <ListItemIcon className="icon">
@@ -97,7 +104,12 @@ function Navbar() {
           >
             <List>
               {data.map((obj) => (
-                <a href={obj.url} style={{textDecoration: "none", color: "#CCD6F6"}}>
+                <a
+                  href={obj.url}
+                  target={obj.newTab ? "_blank" : undefined}
+                  rel={obj.newTab ? "noreferrer" : undefined}
+                  style={{textDecoration: "none", color: "#CCD6F6"}}
+                >
                   <ListItem>
                     <ListItemButton>
                         <ListItemIcon className="icon">
